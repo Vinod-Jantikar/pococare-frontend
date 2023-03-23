@@ -1,12 +1,12 @@
-import './App.css';
-import Register from './components/register/Register';
-import Login from './components/login/Login';
+import "./App.css";
+import Header from "./components/header/Header";
+import Routers from "./routes";
 
 function App() {
   return (
     <div className="App">
-    <Register/>
-    <Login/>
+      <Header />
+      <Routers/>
     </div>
   );
 }
